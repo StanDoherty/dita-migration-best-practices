@@ -1,7 +1,7 @@
 # DITA Migration Best Practices for Workgroups (DRAFT IN PROGRESS)
 First pass at collecting best practices for small- to medium-sized teams migrating to OASIS DITA
 
-So - your workgroup or division within a larger company is considering a migration to DITA, but your management team has not made firm commitments to about:
+So - your workgroup or division is considering a migration to DITA, but your management team has not made firm commitments to you about:
 
 * Increased operating budget
 * Increased staffing
