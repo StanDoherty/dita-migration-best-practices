@@ -7,5 +7,6 @@ So - your workgroup or division is considering a migration to DITA, but your man
 * Increased staffing
 * Relief from continuous release deadlines
 
-You are tasked with developing a migration proposal in the absence of guarantees that these supporting commitments will be in place. How might *you* approach this task based upon teh collective experience of other startups, workgroups, or dvisions that have successfuly completed a migration?
+You are tasked with developing a migration proposal in the absence of guarantees that these supporting commitments will be in place. How might *you* approach this task based upon the collective experience of other startups, workgroups, or divisions that have successfuly completed a migration?
 
+In short -- be conservative, be realistic. In OASIS meetings, we often describe DITA simultaneously as "highly beneficial" and "highly disruptive." It's only human nature to focus on the former, those tantalizing DITA mapping, metadata, processing, reuse, and conditionalization features. What tends to kill DITA migration projects are all the disruptions, all the change management and process re-engineering work that is rarely apparent when you are reading about DITA or doing a preliminary pilot project. 
