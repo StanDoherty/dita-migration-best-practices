@@ -15,9 +15,40 @@ I like sailing analogies. No sailboat can sail directly into the wind, it must t
 
 Making mistakes and course corrections during a DITA migration are inevitable. Expect them. The following best practices for workgroup DITA migrations are designed to reduce the amount of time or effort that is required for you to recover, to get back on the right tack. Let's take an example. If your workgroup does not have an experienced DITA architect on board (and most do not), you are going to bump into lots of little surprises and gotchas. No avoiding them. If you have made technology and design choices that maximize the ability of DITA experts and user groups in the community to help you out when you veer off course, your mean recovery time will be short. If many of your "surprises" are familiar issues to people on the DITA support lists or attending local DITA meetings, you'll get the help that you need quickly. If you adopt highly proprietary technologies or highly customized designs too early in your voyage, you will have limited the ability of people outside your workgroup to help you get back on course. Heavy sailing. 
 
+## Types of DITA migrations
+
+Workgroup
+
+Departmental
+
+Enterprise 
+
+
+
 The following best practices serve as input to your migration planning process. Adapt and season to taste. 
 
 ## Align your DITA migration goals to management priorities
+
+Customers do not care how we author content. They want accurate, complete technical content delivered to them as they use our products to solve business problems. Our management organizations *do* care how efficiently we author, curate, build, translate, and distribute product content. DITA was designed to address some of the major causes of inefficiency in book-oriented content development:
+
+* Low content reuse within and across organizations: Results in costly re-implementation, re-testing, and global inaccuracy. 
+* Poor separation of content from formatting: Results in lower writer productivity and reduced ability to reuse content between output formats.
+* Poor separation of content from context: Results in duplicating similar content many times to satisfy minor variations in context (links, product names, platforms). 
+* Low source consistency: When the authoring environment imposes no restrictions, consistent is entirely discretionary.
+* Low output consistency: When individual source files contain style overrides or local formatting, the generated output can vary significantly.
+* Inconsistent information architecture: When the authoring environment does not require that similar types of information be structured similarly, any type of product content might be mixed with any other. 
+* Impoverished metadata and semantic markup: When the authoring environment does not encourage content developers to tag content for semantic meaning or to add descriptive metadata, downstream systems (SEO) and systems (bots) have a more difficult time leveraging information. 
+* Opaque content management: When the authoring environment cannot determine where content lives and how many dependencies there are between pieces of content, the content is really controlling the team -- not the team controlling its content. 
+
+The DITA standard and its supporting tools can help with all of these issues, but *it takes time*. If a workgroup attempts to learn DITA, convert its content to DITA, implement DITA tooling, and achieve all of these content improvements simultaneously, it will almost certainly fail. 
+
+
+
+
+
+
+
+whether your team spends $10 or $20 to author and deliver a word. It cares whether  is more of a  
 
 ## Build multiple phases into your plan
 
