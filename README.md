@@ -17,11 +17,23 @@ Making mistakes and course corrections during a DITA migration are inevitable. E
 
 ## Types of DITA migrations
 
+| Org (# writers) | DITA expertise | DTDs and transforms | Content MGT | Sharing |
+| ------------ | ------- | -------------------- | ---- | ---------- |
+|Workgroup (2-20) |Informal<br />No dedicated staff<br />No dedicated tools people |Unmodified OASIS DTDs<br />Minimally modified DITA-OT transforms<br />|SVN, GIT, filesystem |None<br/>No shared content<br />No shared metadata | 
+
+
+
+|Department |21-50 |333 |444 |555 |666 |777 | 
+|Enterprise |51+ |333 |444 |555 |666 |777 | 
+
 | Organization | # Writers | DITA expertise | DTDs | Transforms | Content management | Cross-org integration |
 | ------------ | ------- | -------------------- | ---- | ---------- | ------------------ | --------------------- |
 |Workgroup |2-20 |Informal<br />No dedicated staff<br />No dedicated tools people |Unmodified OASIS grammars |Superficially modified DITA-OT transforms<br />Mostly branding |SVN, GIT, filesystem |None<br/>No shared content<br />No shared metadata | 
 |Department |21-50 |333 |444 |555 |666 |777 | 
 |Enterprise |51+ |333 |444 |555 |666 |777 | 
+
+
+
 
 
 The following best practices focus on workgroup-class migrations. They are input to your migration planning process. Adapt and season to taste. 
