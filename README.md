@@ -17,6 +17,10 @@ Making mistakes and course corrections during a DITA migration are inevitable. E
 
 ## Types of DITA migrations
 
+| Organization | # Writers | Dedicated DITA staff | DTDs | Transforms | Content management | Cross-org integration |
+|---|---|---|---|---|---|---|---
+
+
 Workgroup
 
 Departmental
