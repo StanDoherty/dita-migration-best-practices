@@ -17,16 +17,12 @@ Making mistakes and course corrections during a DITA migration are inevitable. E
 
 ## Types of DITA migrations
 
-| Organization | Writers | DITA expertise | DTDs | Transforms | Content management | Cross-org integration |
+| Organization | # Writers | DITA expertise | DTDs | Transforms | Content management | Cross-org integration |
 | ------------ | ------- | -------------------- | ---- | ---------- | ------------------ | --------------------- |
-|111 |222 |333 |444 |555 |666 |777 | 
-|111 |222 |333 |444 |555 |666 |777 | 
-|111 |222 |333 |444 |555 |666 |777 | 
-|111 |222 |333 |444 |555 |666 |777 | 
-|111 |222 |333 |444 |555 |666 |777 | 
-|111 |222 |333 |444 |555 |666 |777 | 
-|111 |222 |333 |444 |555 |666 |777 | 
-|111 |222 |333 |444 |555 |666 |777 | 
+|Workgroup |222 |333 |444 |555 |666 |777 | 
+|Department |222 |333 |444 |555 |666 |777 | 
+|Enterprise |222 |333 |444 |555 |666 |777 | 
+
 
 
 
