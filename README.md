@@ -20,7 +20,7 @@ Making mistakes and course corrections during a DITA migration are inevitable. E
 | Org (# writers) | DITA expertise | Customizations | Content MGT | Sharing |
 | ------------ | ------- | -------------------- | ---- | ---------- |
 |Workgroup<br />(2-10) |Informal training<br />No DITA IA<br />No DITA toolsmith |Almost none<br />Unmodified OASIS DTDs<br />Minimally modified DITA-OT transforms<br />Unmodified filtering conditions|SVN or GIT<br />Filesystem |None| 
-|Department<br />(11-50) |Formal training<br />2+ DITA IAs<br />1+ DITA toolsmiths |Some specialized DTDs<br />Some constraints<br />Some custom metadata<br />Extensive transform work<br />Some shared filtering conditions |Some share topics<br />Some shared library elements<br />Some shared data with engineering | 
+|Department<br />(11-50) |Formal training<br />2+ DITA IAs<br />1+ DITA toolsmiths |Some specialized DTDs<br />Some constraints<br />Some custom metadata<br />Extensive transform work<br />Some shared filtering conditions |SVN or GIT<br />DITA-compliant CCMS?|Some share topics<br />Some shared library elements<br />Some shared data with engineering | 
 |Enterprise |51+ |333 |444 |555 |
 
 | Organization | # Writers | DITA expertise | DTDs | Transforms | Content management | Cross-org integration |
