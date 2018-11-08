@@ -17,14 +17,11 @@ Making mistakes and course corrections during a DITA migration are inevitable. E
 
 ## Types of DITA migrations
 
-| Org (# writers) | DITA expertise | DTDs and transforms | Content MGT | Sharing |
+| Org (# writers) | DITA expertise | Customizations | Content MGT | Sharing |
 | ------------ | ------- | -------------------- | ---- | ---------- |
-|Workgroup (2-20) |Informal<br />No dedicated staff<br />No dedicated tools people |Unmodified OASIS DTDs<br />Minimally modified DITA-OT transforms<br />|SVN, GIT, filesystem |None<br/>No shared content<br />No shared metadata | 
-
-
-
-|Department |21-50 |333 |444 |555 |666 |777 | 
-|Enterprise |51+ |333 |444 |555 |666 |777 | 
+|Workgroup<br />(2-10) |Informal training<br />No DITA IA<br />No DITA toolsmith |Almost none<br />Unmodified OASIS DTDs<br />Minimally modified DITA-OT transforms<br />Unmodified filtering conditions|SVN or GIT<br />Filesystem |None| 
+|Department<br />(11-50) |Formal training<br />2+ DITA IAs<br />1+ DITA toolsmiths |Some specialized DTDs<br />Some constraints<br />Some custom metadata<br />Extensive transform work<br />Some shared filtering conditions |Some share topics<br />Some shared library elements<br />Some shared data with engineering | 
+|Enterprise |51+ |333 |444 |555 |
 
 | Organization | # Writers | DITA expertise | DTDs | Transforms | Content management | Cross-org integration |
 | ------------ | ------- | -------------------- | ---- | ---------- | ------------------ | --------------------- |
