@@ -31,8 +31,12 @@ The following best practices serve as input to your migration planning process. 
 
 Customers do not care how we author content. They want accurate, complete technical content delivered to them as they use our products to solve business problems. Our management organizations *do* care how efficiently we author, curate, build, translate, and distribute product content. DITA was designed to address some of the major causes of inefficiency in book-oriented content development:
 
-* Low content reuse within and across organizations: Results in costly re-implementation, re-testing, and global inaccuracy. 
-* Poor separation of content from formatting: Results in lower writer productivity and reduced ability to reuse content between output formats.
+1. Low content reuse within and across organizations: Results in costly re-implementation, re-testing, and global inaccuracy. 
+1. Poor separation of content from formatting: Results in lower writer productivity and reduced ability to reuse content between output formats.
+
+
+
+
 * Poor separation of content from context: Results in duplicating similar content many times to satisfy minor variations in context (links, product names, platforms). 
 * Low source consistency: When the authoring environment imposes no restrictions, consistent is entirely discretionary.
 * Low output consistency: When individual source files contain style overrides or local formatting, the generated output can vary significantly.
@@ -40,7 +44,7 @@ Customers do not care how we author content. They want accurate, complete techni
 * Impoverished metadata and semantic markup: When the authoring environment does not encourage content developers to tag content for semantic meaning or to add descriptive metadata, downstream systems (SEO) and systems (bots) have a more difficult time leveraging information. 
 * Opaque content management: When the authoring environment cannot determine where content lives and how many dependencies there are between pieces of content, the content is really controlling the team -- not the team controlling its content. 
 
-The DITA standard and its supporting tools can help with all of these issues, but *it takes time*. If a workgroup attempts to learn DITA, convert its content to DITA, implement DITA tooling, and achieve all of these content improvements simultaneously, it will almost certainly fail. 
+The DITA standard and its supporting tools can help with all of these issues, but *it takes time*. If a workgroup attempts simultaneously to learn DITA, convert its content to DITA, implement DITA tooling, standardize its markup, customize its outputs, and achieve significant reuse, it will almost certainly fail. 
 
 
 
