@@ -31,28 +31,23 @@ The following best practices serve as input to your migration planning process. 
 
 Customers do not care how we author content. They want accurate, complete technical content delivered to them as they use our products to solve business problems. Our management organizations *do* care how efficiently we author, curate, build, translate, and distribute product content. DITA was designed to address some of the major causes of inefficiency in book-oriented content development:
 
-1. Low content reuse within and across organizations: Results in costly re-implementation, re-testing, and global inaccuracy. 
-1. Poor separation of content from formatting: Results in lower writer productivity and reduced ability to reuse content between output formats.
-
-
-
-
-* Poor separation of content from context: Results in duplicating similar content many times to satisfy minor variations in context (links, product names, platforms). 
-* Low source consistency: When the authoring environment imposes no restrictions, consistent is entirely discretionary.
-* Low output consistency: When individual source files contain style overrides or local formatting, the generated output can vary significantly.
-* Inconsistent information architecture: When the authoring environment does not require that similar types of information be structured similarly, any type of product content might be mixed with any other. 
-* Impoverished metadata and semantic markup: When the authoring environment does not encourage content developers to tag content for semantic meaning or to add descriptive metadata, downstream systems (SEO) and systems (bots) have a more difficult time leveraging information. 
-* Opaque content management: When the authoring environment cannot determine where content lives and how many dependencies there are between pieces of content, the content is really controlling the team -- not the team controlling its content. 
+1. *Low content reuse within and across organizations*: Results in costly re-implementation, re-testing, and global inaccuracy. 
+1. *Poor separation of content from formatting*: Results in lower writer productivity and reduced ability to reuse content between output formats.
+1. *Poor separation of content from context*: Results in duplicating similar content many times to satisfy minor variations in context (links, product names, platforms). 
+1. *Low source consistency*: When the authoring environment imposes no restrictions, consistent is entirely discretionary.
+1. *Low output consistency*: When individual source files contain style overrides or local formatting, the generated output can vary significantly.
+1. *Inconsistent information architecture*: When the authoring environment does not require that similar types of information be structured similarly, any type of product content might be mixed with any other. 
+1. *Impoverished metadata and semantic markup*: When the authoring environment does not encourage content developers to tag content for semantic meaning or to add descriptive metadata, downstream systems (SEO) and systems (bots) have a more difficult time leveraging information. 
+1. *Opaque content management*: When the authoring environment cannot determine where content lives and how many dependencies there are between pieces of content, the content is really controlling the team -- not the team controlling its content. 
+1. *Poor content collaboration with engineering*: When the authoring environment does not support engineering-friendly formats such as Markdown, ReStructuredText, or even MS Word, the ability of engineering peers to contribute significantly to content development is low. 
 
 The DITA standard and its supporting tools can help with all of these issues, but *it takes time*. If a workgroup attempts simultaneously to learn DITA, convert its content to DITA, implement DITA tooling, standardize its markup, customize its outputs, and achieve significant reuse, it will almost certainly fail. 
 
+If the two highest pain points for management are lack of content/formatting separation and source inconsistency, just converting your current sources into DITA and running themn through some company-branded verson of the DITA Open Toolkit transforms will help tremendously. Make those goals #1 and #2 for the first year. Reuse, metadata, and consistent IA become issues for subsequent years or phases. 
 
+If management primarily wants to see increased collaboration between writing, engineering, support, and marketing professionals, you want to move you existing content to XML DITA while ramping up Lightweight DITA extensions for Markdown and HTML5. Content management and output consistency become candidates for subsequent years or phases. 
 
-
-
-
-
-whether your team spends $10 or $20 to author and deliver a word. It cares whether  is more of a  
+Set expectations with *everyone*. Be ruthless in deferring nice-to-have enhancements. 
 
 ## Build multiple phases into your plan
 
