@@ -1,5 +1,5 @@
 # DITA Migration Best Practices for Workgroups (DRAFT IN PROGRESS)
-First pass at collecting best practices for small- to medium-sized teams migrating to OASIS DITA
+First pass at collecting best practices for small- to medium-sized teams migrating to OASIS DITA.
 
 So - your workgroup or division is considering a migration to DITA, but your management team has not made firm commitments to you about:
 
@@ -22,15 +22,6 @@ Making mistakes and course corrections during a DITA migration are inevitable. E
 |Workgroup<br />(2-10) |Informal training<br />No DITA IA<br />No DITA toolsmith |Almost none<br />Unmodified OASIS DTDs<br />Minimally modified DITA-OT transforms<br />Unmodified filtering conditions|SVN or GIT<br />Filesystem |None| 
 |Department<br />(11-50) |Formal training<br />2+ DITA IAs<br />1+ DITA toolsmiths |Some specialized DTDs<br />Some constraints<br />Some custom metadata<br />Extensive transform work<br />Some shared filtering conditions |SVN or GIT<br />DITA-compliant CCMS?|Some share topics<br />Some shared library elements<br />Some shared data with engineering | 
 |Enterprise |51+ |333 |444 |555 |
-
-| Organization | # Writers | DITA expertise | DTDs | Transforms | Content management | Cross-org integration |
-| ------------ | ------- | -------------------- | ---- | ---------- | ------------------ | --------------------- |
-|Workgroup |2-20 |Informal<br />No dedicated staff<br />No dedicated tools people |Unmodified OASIS grammars |Superficially modified DITA-OT transforms<br />Mostly branding |SVN, GIT, filesystem |None<br/>No shared content<br />No shared metadata | 
-|Department |21-50 |333 |444 |555 |666 |777 | 
-|Enterprise |51+ |333 |444 |555 |666 |777 | 
-
-
-
 
 
 The following best practices focus on workgroup-class migrations. They are input to your migration planning process. Adapt and season to taste. 
