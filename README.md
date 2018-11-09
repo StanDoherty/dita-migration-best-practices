@@ -65,11 +65,17 @@ Set expectations with *everyone*. Be ruthless in deferring nice-to-have enhancem
 
 ![Scale commitments to business need](./images/scale_05.png)
 
-![Scale commitments to business need](./images/scale_06.png)
 
 
 ## Build multiple phases into your plan
 
+![Break the migration into phases](./images/phases_01.png)
+
+![Break the migration into phases](./images/phases_02.png)
+
+![Break the migration into phases](./images/phases_03.png)
+
+![Break the migration into phases](./images/phases_04.png)
 
 
 ## Commit to support your staff
