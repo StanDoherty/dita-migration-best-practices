@@ -15,7 +15,14 @@ I like sailing analogies. No sailboat can sail directly into the wind, it must t
 
 Making mistakes and course corrections during a DITA migration are inevitable. Expect them. The following best practices for workgroup DITA migrations are designed to reduce the amount of time or effort that is required for you to recover, to get back on the right tack. Let's take an example. If your workgroup does not have an experienced DITA architect on board (and most do not), you are going to bump into lots of little surprises and gotchas. No avoiding them. If you have made technology and design choices that maximize the ability of DITA experts and user groups in the community to help you out when you veer off course, your mean recovery time will be short. If many of your "surprises" are familiar issues to people on the DITA support lists or attending local DITA meetings, you'll get the help that you need quickly. If you adopt highly proprietary technologies or highly customized designs too early in your voyage, you will have limited the ability of people outside your workgroup to help you get back on course. Heavy sailing. 
 
-## Types of DITA migrations
+The following best practices focus on workgroup-class migrations. They are input to your migration planning process. Adapt and season to taste.
+
+## Align your DITA migration goals to organizational realities
+
+![Scale commitments to business need](./images/scale_01.png)
+
+![Scale commitments to business need](./images/scale_02.png)
+
 
 | Org (# writers) | DITA expertise | Customizations | Content MGT | Sharing |
 | ------------ | ------- | -------------------- | ---- | ---------- |
@@ -23,8 +30,6 @@ Making mistakes and course corrections during a DITA migration are inevitable. E
 |Department<br />(11-50) |Formal training<br />2+ DITA IAs<br />1+ DITA toolsmiths |Some specialized DTDs<br />Some constraints<br />Some custom metadata<br />Extensive transform work<br />Some shared filtering conditions |SVN or GIT<br />DITA-compliant CCMS?|Some share topics<br />Some shared library elements<br />Some shared data with engineering | 
 |Enterprise |51+ |333 |444 |555 |
 
-
-The following best practices focus on workgroup-class migrations. They are input to your migration planning process. Adapt and season to taste. 
 
 ## Align your DITA migration goals to management priorities
 
@@ -48,6 +53,10 @@ If management primarily wants to see increased collaboration between writing, en
 
 Set expectations with *everyone*. Be ruthless in deferring nice-to-have enhancements. 
 
+## Develop a 360-degree communications plan
+
+
+
 ## Adopt technologies and designs that maximize the ability of people outside your workgroup to help you
 
 * Industry standards (DITA)
@@ -55,16 +64,13 @@ Set expectations with *everyone*. Be ruthless in deferring nice-to-have enhancem
 * Open source software (DITA Open Toolkit)
 * Common engineering infrastructure software (Git, SVN, Jenkins)
 
-![Scale commitments to business need](./images/scale_01.png)
-
-![Scale commitments to business need](./images/scale_02.png)
-
 ![Scale commitments to business need](./images/scale_03.png)
 
 ![Scale commitments to business need](./images/scale_04.png)
 
 ![Scale commitments to business need](./images/scale_05.png)
 
+## Make the migration a budgeted project, not a late-nights and weekends affair
 
 
 ## Build multiple phases into your plan
@@ -79,10 +85,6 @@ Set expectations with *everyone*. Be ruthless in deferring nice-to-have enhancem
 
 
 ## Commit to support your staff
-
-## Make the migration a budgeted project, not a late-nights and weekends affair
-
-## Develop a 360-degree communications plan
 
 
 
