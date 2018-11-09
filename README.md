@@ -7,7 +7,7 @@ So - your workgroup or division is considering a migration to DITA, but your man
 * Increased staffing
 * Relief from continuous release deadlines
 
-You are tasked with developing a migration proposal in the absence of guarantees that these supporting commitments will be in place. How might *you* approach this task based upon the collective experience of other startups, workgroups, or divisions that have successfuly completed a migration?
+You are tasked with developing a migration proposal in the absence of guarantees that these supporting commitments will be in place. How might *you* approach this task based upon the collective experience of other startups, workgroups, or divisions that have successfully completed a migration?
 
 In short -- be conservative, be realistic, be agile. In OASIS meetings, we often describe DITA simultaneously as "highly beneficial" and "highly disruptive." It's only human nature to focus on the former, all those tantalizing DITA mapping, metadata, processing, reuse, and conditionalization features. What tends to kill DITA migration projects are all the disruptions, all the change management and process re-engineering work that is rarely apparent when you are reading about DITA or doing a preliminary pilot project. The big companies with access to dedicated tool engineers, information architects, conversion budgets, and consultants can recover from mistakes in planning or execution; workgroups without a lot of support cannot.
 
@@ -42,20 +42,35 @@ Customers do not care how we author content. They want accurate, complete techni
 
 The DITA standard and its supporting tools can help with all of these issues, but *it takes time*. If a workgroup attempts simultaneously to learn DITA, convert its content to DITA, implement DITA tooling, standardize its markup, customize its outputs, and achieve significant reuse, it will almost certainly fail. 
 
-If the two highest pain points for management are lack of content/formatting separation and source inconsistency, just converting your current sources into DITA and running themn through some company-branded verson of the DITA Open Toolkit transforms will help tremendously. Make those goals #1 and #2 for the first year. Reuse, metadata, and consistent IA become issues for subsequent years or phases. 
+If the two highest pain points for management are lack of content/formatting separation and source inconsistency, just converting your current sources into DITA and running them through some company-branded version of the DITA Open Toolkit transforms will help tremendously. Make those goals #1 and #2 for the first year. Reuse, metadata, and consistent IA become issues for subsequent years or phases. 
 
 If management primarily wants to see increased collaboration between writing, engineering, support, and marketing professionals, you want to move you existing content to XML DITA while ramping up Lightweight DITA extensions for Markdown and HTML5. Content management and output consistency become candidates for subsequent years or phases. 
 
 Set expectations with *everyone*. Be ruthless in deferring nice-to-have enhancements. 
 
-## Build multiple phases into your plan
-
 ## Adopt technologies and designs that maximize the ability of people outside your workgroup to help you
 
 * Industry standards (DITA)
-* Standards-compliant commerical software (DITA editors) 
+* Standards-compliant commercial software (DITA editors) 
 * Open source software (DITA Open Toolkit)
 * Common engineering infrastructure software (Git, SVN, Jenkins)
+
+![Scale commitments to business need](./images/scale_01.png)
+
+![Scale commitments to business need](./images/scale_02.png)
+
+![Scale commitments to business need](./images/scale_03.png)
+
+![Scale commitments to business need](./images/scale_04.png)
+
+![Scale commitments to business need](./images/scale_05.png)
+
+![Scale commitments to business need](./images/scale_06.png)
+
+
+## Build multiple phases into your plan
+
+
 
 ## Commit to support your staff
 
