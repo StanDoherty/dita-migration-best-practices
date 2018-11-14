@@ -81,9 +81,14 @@ Set expectations with *everyone*. Be ruthless in deferring nice-to-have enhancem
 
 ## Develop a 360-degree communications plan
 
+No brainer. Formally structure communications, meetings, and status readouts with:
 
+* Management
+* Individual contributors (writers) 
+* Vendors
+* Company stakeholders (Support, Marketing, UXD, Sales)
 
-## Adopt technologies and designs that maximize the ability of people outside your workgroup to help you
+# Adopt technologies and designs that maximize the ability of people outside your workgroup to help you
 
 * Industry standards (DITA)
 * Standards-compliant commercial software (DITA editors) 
