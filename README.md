@@ -54,7 +54,7 @@ At the enterprise level, the shortcomings of DITA as an enterprise-class solutio
 | ------------ | ------- | -------------------- | ---- | ---------- |
 |Workgroup<br />(2-10) |Informal training<br />No DITA IA<br />No DITA toolsmith |Almost none<br />Unmodified OASIS DTDs<br />Minimally modified DITA-OT transforms<br />Unmodified filtering conditions|SVN or GIT<br />Filesystem |None| 
 |Department<br />(11-50) |Formal training<br />2+ DITA IAs<br />1+ DITA toolsmiths |Some specialized DTDs<br />Some constraints<br />Some custom metadata<br />Extensive transform work<br />Some shared filtering conditions |SVN or GIT<br />DITA-compliant CCMS?|Some share topics<br />Some shared library elements<br />Some shared data with engineering | 
-|Enterprise<br />%1+ |3+ dedicated IAs<br />10+ dedicated toolsmiths |DITA-compliant CCMS<br />Non-compliant DITA CCMS| Specialized grammars<br />Customized DITA-OT trransforms<br />Extensive shared metadata |Extensive shared content |
+|Enterprise<br />%1+ |3+ dedicated IAs<br />10+ dedicated toolsmiths |Extensive shared metadata<br />Extensive sharede context|DITA-compliant CCMS<br />Non-compliant DITA CCMS| Specialized grammars<br />Customized DITA-OT transforms |Extensive shared content |
  
 
 ## Align your DITA migration goals to management priorities
