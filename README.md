@@ -96,10 +96,16 @@ No brainer. Formally structure communications, meetings, and status readouts wit
 * Common engineering infrastructure software (Git, SVN, Jenkins)
 
 
-## Make the migration a budgeted project, not a late-nights and weekends affair
+## Make the migration a budgeted project
+
+DITA migrations are neither magic nor free. Enlist the assistance of your program management team to structure the migration as a real project. 
+
+**TIP**: If management does not approve the incremental expenses or downtime, do not start the migration. 
 
 
 ## Build multiple phases into your plan
+
+Set your goals. 
 
 ![Break the migration into phases](./images/phases_01.png)
 
@@ -112,5 +118,5 @@ No brainer. Formally structure communications, meetings, and status readouts wit
 
 ## Commit to support your staff
 
-
+Invest in the people dimension. Leave no writer behind. 
 
