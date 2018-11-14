@@ -19,17 +19,43 @@ The following best practices focus on workgroup-class migrations. They are input
 
 ## Align your DITA migration goals to organizational realities
 
+there is no one-size-fits-all migration process. The business needs and content development requirements of a 10-person startup differ significantly than those of a 50-person department or 500-person enterprise team.  
+
 ![Scale commitments to business need](./images/scale_01.png)
 
+Unlike commercial content development environments, DITA is an industry standard developed and supported by OASIS the Organization for the Advancement of Structured Information Systems. Basing your content development process on a standard versus a proprietary tool brings with it a different perspective on managing your publishing technology. 
+
+* *X-axis - Adherence to the base DITA grammars and DITA-OT transformations*: DITA was designed to be extended through a process called specialization. If you have the know-how as a Department or Enterprise organization and you have a business need, you can constrain or extend the out-of-the-box DITA grammar files (DTDs and element vocabulary modules) to meet most any new requirement coming your way. This flexibility future-proofs your investment. Similarly, the out-of-the-box DITA-OT transforms for PDF, HTML5, or other output formats are customizable. The ability of DITA to scale in tandem with the evolution of your organizational requirements is a big deal. 
+
+* *Y-axis - Adoption of open-source and proprietary technology*: OASIS DITA, the DITA Open Toolkit, and many DITA-related technologies are open source technologies. Being open source does not guarantee that something is usable or of high quality, but it does impose an expectation that any commercial tool claiming to be compliant with these open source standards does, in fact, supplement and enhance the open source standard rather than replacing open source elements with proprietary ones. 
+
 ![Scale commitments to business need](./images/scale_02.png)
+
+While workgroup-class organizations come up to speed on DITA and determine how much they need to customize the out-of-the-box DTDs, grammars, and DITA-OT transformations, hey should consider basing their pilots and initial production implementations on default (out-of-the-box) resources for grammars, vocabularies, processing, and build technologies. Relying upon commercial tools that preserve and extend the standard is inevitable. DITA-compliant editors are a great example. You can't expect professional writers to be working in dopey open source editors when there are several DITA- compliant editors available reasonable cost. Choosing content management or other processing technologies that are not DITA-compliant may be necessary, but only in the context of having exhausted every DITA-compliant option. 
+
+![Scale commitments to business need](./images/scale_03.png)
+
+DITA is prone to the fallacy of manifest destiny, the notion that some small movement toward DITA migration necessarily involves a complete migration toward all DITA features, regardless of their relevance to business need. In American mythology, Lewis and Clark conquered all obstacles without the assistance of First Nation peoples in their migration from Virginia to California. 
+
+![American manifest destiny](./images/manifest-destiny.png)
+
+Workgroup organizations attempting to specialize DITA without adequate support will not make it across the prairies or Rocky Mountains. "DITA maturity" needs to be redefined in terms of decision making, specifically deciding what is "good enough" for workgroup, department, and enterprise organizations.
+
+Department-level DITA implementations need to take advantage of the customization options available in DITA and the DITA Open Toolkit *after* they have determined that default, out-of-the-box solutions will not satisfy their business requirements.  
+
+![Scale commitments to business need](./images/scale_04.png)
+
+At the enterprise level, the shortcomings of DITA as an enterprise-class solution need to supplemented with standards-aware solutions.  
+
+![Scale commitments to business need](./images/scale_05.png)
 
 
 | Org (# writers) | DITA expertise | Customizations | Content MGT | Sharing |
 | ------------ | ------- | -------------------- | ---- | ---------- |
 |Workgroup<br />(2-10) |Informal training<br />No DITA IA<br />No DITA toolsmith |Almost none<br />Unmodified OASIS DTDs<br />Minimally modified DITA-OT transforms<br />Unmodified filtering conditions|SVN or GIT<br />Filesystem |None| 
 |Department<br />(11-50) |Formal training<br />2+ DITA IAs<br />1+ DITA toolsmiths |Some specialized DTDs<br />Some constraints<br />Some custom metadata<br />Extensive transform work<br />Some shared filtering conditions |SVN or GIT<br />DITA-compliant CCMS?|Some share topics<br />Some shared library elements<br />Some shared data with engineering | 
-|Enterprise |51+ |333 |444 |555 |
-
+|Enterprise<br />%1+ |3+ dedicated IAs<br />10+ dedicated toolsmiths |DITA-compliant CCMS<br />Non-compliant DITA CCMS| Specialized grammars<br />Customized DITA-OT trransforms<br />Extensive shared metadata |Extensive shared content |
+ 
 
 ## Align your DITA migration goals to management priorities
 
@@ -64,11 +90,6 @@ Set expectations with *everyone*. Be ruthless in deferring nice-to-have enhancem
 * Open source software (DITA Open Toolkit)
 * Common engineering infrastructure software (Git, SVN, Jenkins)
 
-![Scale commitments to business need](./images/scale_03.png)
-
-![Scale commitments to business need](./images/scale_04.png)
-
-![Scale commitments to business need](./images/scale_05.png)
 
 ## Make the migration a budgeted project, not a late-nights and weekends affair
 
