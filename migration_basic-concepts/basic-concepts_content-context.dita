@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_basic-concepts_encapsulation">
+ <title>About Encapsulation</title>
+
+ <conbody>
+<section class="- topic/section "><p class="- topic/p ">In object-oriented software design, an object is considered "encapsulated"
+        when it contains all the resources (data and methods) that it needs to function. Basically,
+        it has no dependencies on other objects for its primary operation. </p>
+      <p class="- topic/p ">For XML DITA objects (topics) to function as independent modules, they
+        must not include the typical XML structures that create topic-to-topic dependencies.</p>
+      <ul id="ul_qp1_4h3_ly" class="- topic/ul ">
+        <li class="- topic/li ">
+          <p class="- topic/p "><msgph>&lt;xref&gt;</msgph>s</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p "><msgph>&lt;related-links&gt;</msgph> and associated
+              <msgph>&lt;link></msgph>s</p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">Transcluded content via @conrefs</p>
+        </li>
+      </ul>
+      <p>In the transition from developing linear documentation to modular documentation,
+        encapsulation is probably the most challenging and rewarding concept. </p></section>
+ </conbody>
+
+</concept>
+

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_svt_4zp_rx">
+ <title>How to Reuse Contents in This Guide</title>
+ <conbody>
+  <section id="section_z4b_t3p_xy">
+   <p>DITA is all about reuse. A significant amount of material in this guide may be useful to you
+    as source material in crafting a DITA migration proposal in your own organization. Please do so.
+    Here are a few tips that may help you in reusing these DITA sources. </p>
+  </section>
+  <section id="section_xrx_scq_rx">
+   <title>Key names available in this domain </title>
+   <p>The DITA map named <filepath>mapkeys_dita-migration.ditamap</filepath> contains a collection
+    DITA key definitions that are used throughout this domain. Key names are <i>italicized</i>, key
+    values are <b>boldfaced</b>. </p>
+   <codeblock>&lt;keydef keys="<i>k_kw_migrate_org-name</i>">&lt;topicmeta>
+  &lt;keywords>&lt;keyword><b>[YOUR-ORG-NAME]</b>&lt;/keyword>&lt;/keywords>
+  &lt;/topicmeta>&lt;/keydef>
+&lt;keydef keys="<i>k_kw_migrate_product-name-1</i>">&lt;topicmeta>
+  &lt;keywords>&lt;keyword><b>[YOUR-PRODUCT-NAME]</b>&lt;/keyword>&lt;/keywords>
+  &lt;/topicmeta>&lt;/keydef>
+&lt;keydef keys="<i>k_kw_migrate_product-name-2</i>">&lt;topicmeta>
+  &lt;keywords>&lt;keyword><b>[YOUR-PRODUCT-NAME-2]</b>&lt;/keyword>&lt;/keywords>
+  &lt;/topicmeta>&lt;/keydef>
+&lt;keydef keys="<i>k_kw_migrate_proposal-title</i>">&lt;topicmeta>
+  &lt;keywords>&lt;keyword><b>[YOUR-PROPOSAL-TITLE]</b>&lt;/keyword>&lt;/keywords>
+  &lt;/topicmeta>&lt;/keydef></codeblock>
+   <p>If you update the value of one of these keys in this map, all references to that key name in
+    topics throughout this domain will auto-magically update the next time you open a topic or
+    generate output. </p>
+   <p>Try it.</p>
+   <p>
+    <simpletable frame="all" relcolwidth="1.0* 1.0*" id="simpletable_w5y_tdq_rx">
+     <sthead>
+      <stentry>Key name</stentry>
+      <stentry>Referenced key value</stentry>
+     </sthead>
+     <strow>
+      <stentry>
+       <p><msgph>k_kw_migrate_org-name</msgph></p>
+      </stentry>
+      <stentry>
+       <p><keyword keyref="k_kw_migrate_org-name"/></p>
+      </stentry>
+     </strow>
+     <strow>
+      <stentry>
+       <p><msgph>k_kw_migrate_product-name-1</msgph></p>
+      </stentry>
+      <stentry>
+       <p><keyword keyref="k_kw_migrate_product-name-1"/></p>
+      </stentry>
+     </strow>
+     <strow>
+      <stentry>
+       <p><msgph>k_kw_migrate_product-name-2</msgph></p>
+      </stentry>
+      <stentry>
+       <p><keyword keyref="k_kw_migrate_product-name-2"/></p>
+      </stentry>
+     </strow>
+     <strow>
+      <stentry>
+       <p><msgph>k_kw_migrate_proposal-title</msgph></p>
+      </stentry>
+      <stentry>
+       <p><keyword keyref="k_kw_migrate_proposal-title"/></p>
+      </stentry>
+     </strow>
+    </simpletable>
+   </p>
+  </section>
+ </conbody>
+</concept>

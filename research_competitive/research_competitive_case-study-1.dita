@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_gym_54t_lz">
+  <title>Competitive Information: Case Study 1</title>
+  <prolog>
+    <author>Your name</author>
+    <metadata>
+      <category><keyword keyref="name_migration-phase-1"/></category>
+      <category>Competitive Information</category>
+      <category>Case Study</category> 
+    </metadata>
+  </prolog>
+  
+  <body>
+
+    <p>This topic provides a framework for you to share your experiences in planning to move your content from a competitive product such as Framemaker (unstructured), MS Word, or MadCap Flare to DITA. The following sections are purely suggestions. However you'd like to provide context and details, go for it. Provide contact information only if you are willing to respond to follow-up questions.
+</p>
+
+<section><title>Background</title>
+<p>Who - what - when - where?</p>
+</section>
+
+<section><title>What particular requirements or challenges did you have to consider?</title>
+<p>Who - what - when - where?</p>
+</section>
+
+<section>
+      <!-- Pseudo-footer boilerplate -->
+      <p><image href="../common/graphics/migration-rule.png"/></p> 
+      <p><image href="../common/graphics/icon_migration-guide.png"/></p>
+      <p>Sponsored by <keyword keyref="name_migration-guide-sponsor"/></p>
+  </section>
+
+  </body>
+</topic>

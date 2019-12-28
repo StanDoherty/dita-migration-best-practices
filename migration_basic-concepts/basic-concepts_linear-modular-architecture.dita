@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_basic-concepts_liear-modular-environments">
+ <title>About Linear and Modular Authoring Environments</title>
+
+ <conbody>
+        <section id="section_l52_s5n_xy">
+            <p class="- topic/p ">For a variety of reasons, the technical publishing industry does
+                not have crisp, generally accepted set of definitions for linear and modular
+                authoring environments. That said, the following definitions will suffice. </p>
+        </section>
+     <section>
+         <title>Linear authoring environments </title>
+            <p class="- topic/p ">Linear authoring environments consist of markup languages,
+                authoring tools, and processors optimized for the development of publications
+                designed to be read progressively (chapter-to-chapter, page-to-page,
+                section-to-section). Distinguishing features include the following.</p>
+            <ul id="ul_cy4_3g2_ly" class="- topic/ul ">
+                <li class="- topic/li ">
+                    <p class="- topic/p ">Sophisticated stylesheet and layout logic.</p>
+                </li>
+                <li class="- topic/li ">
+                    <p class="- topic/p ">Sophisticated book-oriented assembly logic, e.g. prelims,
+                        part separators, chapter separators, et al..</p>
+                </li>
+                <li class="- topic/li ">
+                    <p class="- topic/p ">Style-driven, hierarchical organization, e.g. dedicated
+                        elements/styes for each heading level. </p>
+                </li>
+            </ul>
+            <p class="- topic/p ">Some of the premier linear authoring environments for the
+                technical publishing market include unstructured Framemaker, MS Word, and OASIS
+                DocBook 4.x. </p>
+     </section>
+     
+     <section>
+         <title>Modular authoring environments </title>
+            <p class="- topic/p ">Modular authoring environments consist of markup languages,
+                authoring tools, and processors optimized for the development of content
+                repositories full of reusable information components. Publications built from these
+                reusable components can be organized statically (with hardwired maps) or dynamically
+                (with metadata-driven processors). Distinguishing features include the
+                following.</p>
+            <ul id="ul_hrj_3h2_ly" class="- topic/ul ">
+                <li class="- topic/li ">
+                    <p class="- topic/p ">Atomic units of authoring, e.g. topics, articles, or
+                        modules. </p>
+                </li>
+                <li class="- topic/li ">
+                    <p class="- topic/p ">Sophisticated logic for assembling these units, e.g. DITA
+                        maps, Flare TOCs, DocBook books, etc..</p>
+                </li>
+                <li class="- topic/li ">
+                    <p class="- topic/p ">Sophisticated logic for transcluding (reusing by
+                        reference) content at any level – words, sections, topic, and maps. </p>
+                </li>
+                <li class="- topic/li ">
+                    <p class="- topic/p ">Non-hierarchical organization, e.g. no level-specific
+                        headings or sections embedded in the markup.</p>
+                </li>
+                <li class="- topic/li ">
+                    <p class="- topic/p ">Separation of source content from delivered presentation.
+                        The same set of modules and/or maps can generate multiple deliverables, each
+                        with its distinct presentation format. </p>
+                </li>
+            </ul>
+            <p class="- topic/p ">Some of the premier modular authoring environments for the
+                technical publishing market include XML DITA, MadCap Flare, and OASIS DocBook 5.x. </p>
+     </section>
+     
+     <section id="section_gcc_mj2_ly" class="- topic/section ">
+            <p class="- topic/p ">There are no absolutes. If you apply best practices for modular writing to a linear
+                authoring environment such as MS Word or unstructured Framemaker, you can produce
+                some robust modular help systems. Similarly, authors in a modular environment can
+                assemble and link modules into respectable linear manuals. That said, there is more
+                logic and tooling in modular environments to produce linear documentation than there
+                is logic and tooling in the linear environment to produce robust modular
+                documentation. </p>
+        </section>
+ </conbody>
+
+</concept>
+

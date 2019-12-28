@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>DITA Migration Guide</title>
+ <topicref href="migration_intro/mapgen_intro.ditamap" format="ditamap"/>
+ <topicref href="mapgen_research.ditamap" format="ditamap"/>
+ <topicref href="mapgen_implementation.ditamap" format="ditamap"/>
+ <topicref href="mapgen_consolidation.ditamap" format="ditamap"/>
+ <topicref href="mapgen_collaboration.ditamap" format="ditamap"/>
+
+ <topicref href="migration_basic-concepts/mapgen_basic-concepts.ditamap" format="ditamap"/>
+ <topichead navtitle="Resource-only Content" processing-role="resource-only">
+  <topicref href="mapkeys_dita-migration.ditamap" format="ditamap"/>
+ </topichead>
+</map>

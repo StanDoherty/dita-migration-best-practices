@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_p1d_r4t_lz">
+  <title>Resources: DITA Overviews</title>
+  <prolog>
+    <author>Stan Doherty</author>
+    <metadata>
+      <category><keyword keyref="name_migration-phase-1"/></category>
+      <category>DITA Overviews</category>
+      <category>Resources</category> 
+    </metadata>
+  </prolog>
+  <refbody>
+
+  <section>
+    <p>Brief summary of the scope of available information resources on this subject. </p>
+    <p>The following resources are available:</p>
+    <ul>
+      <li><p><xref href="https://en.wikipedia.org/wiki/Darwin_Information_Typing_Architecture" scope="external" format="html">Darwin Information Typing Architecture</xref>: Wikipedia</p>
+      </li>
+      <li><p><xref href="https://www.ibm.com/developerworks/xml/library/x-dita3/index.html#N210" scope="external" format="html">Frequently Asked Questions about the Darwin Information Typing Architecture</xref>: (September 2005) DITA 1.0</p></li>
+      
+      <li><p><xref href="https://www.ibm.com/developerworks/xml/library/x-dita1/" scope="external" format="html">Introduction to the Darwin Information Typing Architecture</xref>: (September 2005) DITA 1.0</p></li>
+      
+      <li><p><xref href="https://github.com/gnostyx/dita-demo-content-collection" scope="external" format="html">DITA Demonstration Content Collection</xref>: (December 2016)  Gnostyx Research Inc. and Eliot Kimber - Real DITA documentatin for a fictional product</p></li>
+      
+      <li><p><xref href="http://www.learningdita.com/courses/introduction-to-dita/" scope="external" format="html">Introduction to DITA</xref>: Six Online Lessons (Free)</p></li>
+      
+      <li><p><xref href="https://www.learningsolutionsmag.com/articles/524/what-is-dita-and-why-should-you-care" scope="external" format="html">What is DITA and Why Should You Care?</xref>: 
+        Chris Benz - 2010</p></li>
+      
+      <li><p><xref href="http://www.ditamap.com/ditaref/ditaspec10-main.php" scope="external" format="html">OASIS DITA 1.0 Specification</xref>: "DITA Markup" - OASIS DITA Technical Committee</p></li>
+      
+      <li><p><xref href="http://greyfiti.wikidot.com/sdg:gmeth-con-dita-relationship-minimalism" scope="external" format="html">Concept: DITA's relationship with minimalism</xref>: 
+        Eric Hixson, BMC Software</p></li>
+      
+      <li><p><xref href="http://www.drdobbs.com/web-development/dita-the-darwin-information-typing-archi/206105369" scope="external" format="html">DITA: The Darwin Information Typing Architecture</xref>: Amber Swope and Michael Priestley (February 2008)</p></li>
+    </ul> 
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+
+  </section>
+
+  <section>
+      <!-- Pseudo-footer boilerplate -->
+      <p><image href="../common/graphics/migration-rule.png"/></p> 
+      <p><image href="../common/graphics/icon_migration-guide.png"/></p>
+      <p>Sponsored by <keyword keyref="name_migration-guide-sponsor"/></p>
+  </section>
+
+  </refbody>
+</reference>

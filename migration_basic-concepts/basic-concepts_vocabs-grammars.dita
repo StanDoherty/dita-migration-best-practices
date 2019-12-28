@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_basic-concepts_grammars-vocabs-processors">
+ <title>About XML Grammars, Vocabularies, DTDs, and Processors</title>
+
+ <conbody>
+      <section id="section_gpm_n5r_ky" class="- topic/section ">
+      <p class="- topic/p ">XML has its own professional vocabulary for talking about the stuff in
+        formal language specifications. The audience for the OASIS DITA specification includes tools
+        developers, consultants, and system integrators, not writers, editors, managers, or
+        information architects. Language specifications require that level of precision, chances are
+        that most people considering a DITA migration do not. This topic attempts to describe some
+        of the basic concepts of the XML language and architecture in terms of something that we all
+        know – natural language. </p>
+    </section><section class="- topic/section "><title class="- topic/title ">Grammar</title>
+      <p class="- topic/p ">Proficient speakers in any natural language such as English, Chinese, or
+        Navaho know that sentences are constructed according to a set of rules. English sentences
+        that do not conform to the subject-verb-object sequence are irregular (Yoda-speak).
+        Regardless of what words are used in the sentences, the sentence structures for any language
+        need to follow a grammar in order to make sense. </p>
+      <p class="- topic/p ">Computer markup languages such as HTML, XML, wiki, Markdown, and so on
+        rely on conventions for how they encode content. The set of encoding rules for HTML4, for
+        example, do not require that every opening tag (element) have a closing tag (element). </p>
+      <codeblock class="+ topic/pre pr-d/codeblock ">&lt;li&gt;This is an item in an ordered (numbered) list in HTML4.</codeblock>
+      <p class="- topic/p ">Similarly, most lightweight markup languages such as Markdown require
+        only opening tags.</p>
+      <codeblock class="+ topic/pre pr-d/codeblock "># This is an item in an ordered (numbered) list. </codeblock>
+      <p class="- topic/p ">In more structured markup grammars such as XHTML, HTML5, or XML DITA,
+        every opening tag must have a corresponding closing tag to be considered "well formed". </p>
+      <codeblock class="+ topic/pre pr-d/codeblock ">&lt;li&gt;This is an item in an ordered (numbered) list.&lt;/li&gt; </codeblock>
+      <p class="- topic/p ">When a web browser or markup parser reads an HTML, Markup, or XML
+        document, it first evaluates whether the encoding conforms to the grammar that it expects.
+        On this first pass, the parser is not evaluating elements or attributes or metadata, it is
+        purely evaluating the markup conventions used in the document. If the document has markup
+        that does not conform to the HTML, Markdown, or XML grammar rules, the document can be
+        rejected by the parser and non-conforming or "not well formed". </p></section>
+    <section id="section_qx3_lwr_ky" class="- topic/section ">
+      <title class="- topic/title ">Vocabularies</title>
+      <p class="- topic/p ">Although children need no more than a couple of years to master the grammar for their first
+        language, they may spend many years learning the words (vocabulary) that comprise
+        conversational and professional discourse. </p>
+      <p class="- topic/p ">Once you have learned a set of encoding rules (grammar) for a computer
+        markup language, you need to wrapper or encode your content in a set of tags (elements)
+        specific to that language. Lightweight markup vocabularies such as Markdown rely on a small
+        set of easy-to-remember, easy-to-use tags: <msgph class="+ topic/ph sw-d/msgph ">#</msgph>
+        (Heading-1), <msgph class="+ topic/ph sw-d/msgph ">##</msgph> (Heading-2), <msgph
+          class="+ topic/ph sw-d/msgph ">*</msgph> (bullet list item), and <msgph
+          class="+ topic/ph sw-d/msgph ">` `</msgph> (code phrase). More sophisticated markup
+        languages such as XML DocBook or DITA have hundreds of elements designed to capture complex
+        structures (nested <msgph class="+ topic/ph sw-d/msgph ">&lt;div&gt;</msgph>s) and semantic
+        content (<msgph class="+ topic/ph sw-d/msgph ">&lt;msgph&gt;</msgph>). Different flavors of
+        the same markup language usually share the same grammar but not the same vocabulary. What
+        determines the complexity and breadth of a markup language is a combination of its
+        out-of-the-box vocabulary and its capacity for extending that base vocabulary. We have, for
+        example, dozens of variations of wiki and Markdown because their base vocabularies could not
+        be extended – only replaced or modified. By contrast, the DITA specializations are all
+        extensions of the base DITA vocabulary. </p>
+    </section>
+    <section id="section_qr3_kvr_ky" class="- topic/section ">
+      <title class="- topic/title ">DTDs (Document Type Definitions)</title>
+      <p class="- topic/p ">Structured markup languages such as SGML and XML rely on parsers to
+        compare each document that we author against a strict "definition" of the vocabularies
+        allowed in a document. If the Document Type Definition (DTD) for DITA task topics specifies,
+        for example, that the first element in that document be a <msgph
+          class="+ topic/ph sw-d/msgph ">&lt;prolog&gt;</msgph> element, all my individual task
+        topics must open with a <msgph class="+ topic/ph sw-d/msgph ">&lt;prolog&gt;</msgph>
+        element. DTDs specify how the <i>langue</i> (superset) of abstract vocabulary elements must
+        be combined and sequenced to produce a particular type of document (<i>parole</i>,
+        implementation). The combination of defining vocabulary relationships in DTDs and validating
+        (parsing) each instance of a document type (topic) against its DTD ensures that all the
+        documents containing your content are consistent relative to the rules you establish in your
+        DTDs. That's what we call <i>valid</i> in XML. Very strict or constrained DTD definitions
+        produce more restrictive topics. If you are managing 100 topics, this level of consistency
+        is a nice-to-have. With 100,000 topics in multiple languages, 100% validity and very high
+        consistency are must-haves. Automated processing and publishing pipelines assume this level
+        of validity and consistency.   </p>
+    </section>
+    <section id="section_mkr_rbs_ky" class="- topic/section ">
+      <title class="- topic/title ">Processors</title>
+      <p class="- topic/p ">Processors perform three tasks. </p>
+      <ol id="ol_vsx_xbs_ky" class="- topic/ol ">
+        <li class="- topic/li ">
+          <p class="- topic/p ">They read (parse) documents designated to be "built" or "rendered" in some output
+            format.  </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">They associate tags in the markup such as <msgph
+              class="+ topic/ph sw-d/msgph ">&lt;b&gt;</msgph> with specific formatting in the
+            target output (bold). The intermediate lookup table between markup tags and output
+            formatting is implemented in XML as XSL files. Each type of output (PDF, HTML5, EPUB)
+            requires a different set of XSL processor files.</p>
+          <note class="- topic/note ">
+            <p class="- topic/p ">Occasionally processors perform analysis on markup files without formatting them. The
+              Oxygen DITA Map Metrics Report, for example, produces a statistical report instead of
+              some flavor of formatted output.  </p>
+          </note>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">They capture this formatted output in files – PDF or HTML5 typically. </p>
+        </li>
+      </ol>
+    </section>
+    <section id="section_fjs_22s_ky" class="- topic/section ">
+      <p class="- topic/p ">Ultimately, the SimpliVity publishing environment has considerable flexibility in the
+        vocabularies, DTDs, and processors that its uses to encode and to process content. We have
+        no flexibility in changing XML grammar.  </p>
+    </section>
+
+ </conbody>
+
+</concept>
+

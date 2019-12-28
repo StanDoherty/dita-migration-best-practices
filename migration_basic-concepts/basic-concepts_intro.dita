@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_basic-concepts_intro">
+
+
+ <title>Appendix: Basic Concepts in XML DITA</title>
+
+ <conbody>
+    <p class="- topic/p ">Before you and your team begin your journey, consider reviewing some of
+      the basic concepts underlying XML and DITA. Discovering where you team can achieve consensus
+      and where you agree to disagree will help during subsequent phases of a migration when you
+      need to make tradeoffs in your goals, design, or schedule.   </p>
+    <note type="tip">
+      <p>You will <i>always</i> need to make tradeoffs and compromises. </p>
+    </note>
+ </conbody>
+
+</concept>
+

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_rwd_n4t_lz">
+  <title>Introduction: <keyword keyref="name_migration-phase-3"/></title>
+  <prolog>
+    <author>Stan Doherty</author>
+    <metadata>
+      <category><keyword keyref="name_migration-phase-3"/></category>
+      <category>Introduction</category> 
+    </metadata>
+  </prolog>
+  <body>
+    <p>Introductory information.</p>
+  </body>
+</topic>

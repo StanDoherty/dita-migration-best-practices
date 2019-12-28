@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_sjz_s4t_lz">
+  <title>Feedback and Contacts: DITA Show Stoppers</title>
+  <prolog>
+    <author>Stan Doherty</author>
+    <metadata>
+      <category><keyword keyref="name_migration-phase-1"/></category>
+      <category>DITA Show Stoppers</category>
+      <category>Feedback</category> 
+      <category>Contacts</category>
+    </metadata>
+  </prolog>
+  
+  <body>
+
+
+
+
+  <p>This topic provides a context for readers to identify missing/needed information about DITA show-stoppers and for members of the DITA community to volunteer to respond to inquiries about DITA show-stoppers. </p>
+
+<section><title>Requests for missing or needed information</title>
+<p>If you are looking for a particular information on the topic of DITA show-stoppers, please add a list item to the following list and (optionally) your email contact information. </p>
+<ul>
+<li><p>Summary of information missing or needed. (Optionally) your email contact information.</p></li>
+<li><p>Summary of information missing or needed. (Optionally) your email contact information.</p></li>
+<li><p>Summary of information missing or needed. (Optionally) your email contact information.</p></li>
+<li><p>Summary of information missing or needed. (Optionally) your email contact information.</p></li>
+<li><p>Summary of information missing or needed. (Optionally) your email contact information.</p></li>
+</ul>
+</section>
+
+<section><title>Contacts</title>
+<p>The following members of the DITA community have volunteered to serve as a resource for anyone seeking advice or additional information about DITA show-stoppers. </p>
+    <simpletable frame="all" relcolwidth="1.0* 1.2*" id="simpletable_bbw_2wy_mz">
+        <sthead>
+          <stentry>DITA show-stoppers</stentry>
+          <stentry>Contact information</stentry>
+        </sthead>
+        <strow>
+          <stentry>
+            <p>Area of interest</p>
+          </stentry>
+          <stentry>
+            <p>Name: <xref href="mailto:yourEmail@address.com" format="html" scope="external"/></p>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <p>Area of interest</p>
+          </stentry>
+          <stentry>
+            <p>Name: <xref href="mailto:yourEmail@address.com" format="html" scope="external"/></p>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <p>Area of interest</p>
+          </stentry>
+          <stentry>
+            <p>Name: <xref href="mailto:yourEmail@address.com" format="html" scope="external"/></p>
+          </stentry>
+        </strow>
+        <strow>
+          <stentry>
+            <p>Area of interest</p>
+          </stentry>
+          <stentry>
+            <p>Name: <xref href="mailto:yourEmail@address.com" format="html" scope="external"/></p>
+          </stentry>
+        </strow>
+      </simpletable>
+</section>
+
+  <section>
+      <!-- Pseudo-footer boilerplate -->
+      <p><image href="../common/graphics/migration-rule.png"/></p> 
+      <p><image href="../common/graphics/icon_migration-guide.png"/></p>
+      <p>Sponsored by <keyword keyref="name_migration-guide-sponsor"/></p>
+  </section>
+
+
+  </body>
+</topic>

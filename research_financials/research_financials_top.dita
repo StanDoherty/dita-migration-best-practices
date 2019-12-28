@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_rwd_n4t_lz">
+  <title>DITA Financials</title>
+  <prolog>
+    <author>Stan Doherty</author>
+    <metadata>
+      <category><keyword keyref="name_migration-phase-1"/></category>
+      <category>DITA Financials</category>
+      <category>Introduction</category> 
+    </metadata>
+  </prolog>
+  <body>
+
+    <p>The topic provides an introduction to the section. </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+
+    <!-- Pseudo-footer boilerplate -->
+    <p><image href="../common/graphics/migration-rule.png"/></p> 
+    <p><image href="../common/graphics/icon_migration-guide.png"/></p>
+    <p>Sponsored by <keyword keyref="name_migration-guide-sponsor"/></p>
+
+  </body>
+</topic>

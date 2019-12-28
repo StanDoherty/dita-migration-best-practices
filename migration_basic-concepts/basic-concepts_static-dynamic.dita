@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_basic-concepts_static-dynamic">
+ <title>About Static and Dynamic Assembly</title>
+
+ <conbody>
+<section class="- topic/section "><p class="- topic/p ">The principles that we use to design and assemble technical documentation are
+        changing dramatically.</p></section>
+    <section id="section_sjy_1fv_ly" class="- topic/section ">
+      <title class="- topic/title ">Static assembly</title>
+      <p class="- topic/p ">Whether the building blocks for our publications are linear chapters or
+        modular topics, most authoring tools require us to define some "assembly" for these building
+        blocks. Whether that assembly definition is a Framemaker book, Flare TOC, or DITA map,
+        someone needs to define a default sequence or hierarchy for assembling the building blocks.
+        The DITA Open Toolkit, for example, requires that you provide the name of a map with links
+        to topics before it will process any of your topic content. That classic "outline" or "bill
+        of materials" represents but one static view of how the building blocks might be assembled.
+        We define static DITA maps for our deliverables and present them to our customers as an
+        "authoritative" view of the content. From a legal standpoint, the company has to stand by
+        some definition of the functionality of its product, so some "authoritative" view is needed. </p>
+      <p>Does that "authoritative view" need to be the only view? Alternative ways to assemble the
+        topic are never far away – just consult with product owners, scrum teams members, or Support
+        professionals in your organization. Although most organizations are not yet in a position to
+        leave static assembly behind, we cannot ignore the alternative method of organizing
+        information – metadata-driven dynamic assembly. </p>
+    </section>
+    <section id="section_wlc_xgv_ly" class="- topic/section ">
+      <title class="- topic/title ">Metadata-driven dynamic assembly</title>
+      <p class="- topic/p ">Two familiar technologies are nudging us away from relying exclusively
+        on statically assembled content.</p>
+      <ul id="ul_jrb_m3v_ly" class="- topic/ul ">
+        <li class="- topic/li ">
+          <p class="- topic/p "><i>Social networking and analytics</i> – communities of users
+            provide an alternate framework for evaluating the relative importance of the content we
+            produce. The collective "like" or "dislike" pathways through technical documentation
+            sets represent an alternate "authority" to the static table of contents. James
+            Surowiecki argues in <cite class="- topic/cite ">The Wisdom of Crowds</cite> that
+            collective experience of large numbers of readers can be captured and modeled in real
+            time. This experience, whether gathered interactively through social media or indirectly
+            through analytics, offers an alternate view through the content that is often more
+            relevant than statically assembled publications. Imagine some view of our topics called
+            "Sort by audience and popularity." </p>
+          <p class="- topic/p ">In <cite class="- topic/cite ">Too Big to Know</cite>, David
+            Weinberger writes --</p>
+          <lq class="- topic/lq ">
+            <p class="- topic/p ">The new filtering techniques are disruptive, especially when it comes to the
+              authority of knowledge. Old knowledge institutions like newspapers, encyclopedias, and
+              textbooks got much of their authority from the fact that they filtered information for
+              the rest of us. If our social networks are our new filters, then authority is shifting
+              from experts in faraway offices to the network of people we know, like, and respect.
+            </p>
+          </lq>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p "><i>Machine-based information processing</i> – the ability of
+            crawlers, infobots, avatars, and search engines to distill vast quantities of technical
+            information into non-sequential, non-hierarchical data structures is our current
+            reality. The Googles and Pinterests serve as knowledge brokers, allowing individual
+            readers to define their own priorities and pathways through the information. To a
+            crawler, all content is metadata that it can process. The less meaningful metadata
+            embedded in our content, the more the crawlers have to make guesses and fill in the
+            blanks. The only issue for content developers is whether we know how to enrich the
+            breadth and precision of the metadata in our content in such a way that machine
+            processors build a more meaningful, useful picture of our content. </p>
+        </li>
+      </ul>
+      <p class="- topic/p ">Designing your product documentation for dynamic assembly involves
+        enriching the individual topics with meaningful metadata and semantic markup. Providing
+        meaningful <msgph>&lt;prolog&gt;</msgph> information, <msgph>&lt;abstract&gt;</msgph>
+        information, and accurate semantic tagging feeds the machine-based information processors
+        with high-octane metadata and increases the likelihood that the topics served up to
+        customers by these search systems will more accurately reflect what the customer is looking
+        for. We need to trade control over the presentation of multiple topics (static assembly) for
+        influence over the fidelity of content within any topic. In <cite>Content Everywhere</cite>,
+        Sara Wachter-Boettcher writes – </p>
+      <lq class="- topic/lq ">
+        <p class="- topic/p ">[It means] creating a new framework: a mindset focused on designing for and building
+          content that can have multiple purposes, and whose meaning can stay intact through
+          multiple contexts. It's about structuring content so that it's flexible enough to fit the
+          varied needs that we have today, and strong enough to build on it with additional rules as
+          they become necessary. </p>
+      </lq>
+    </section>
+    <section id="section_o1m_m4v_ly" class="- topic/section ">
+      <p class="- topic/p ">DITA – especially in the context of HTML5 delivery and content
+        management metadata – is capable of supporting both statically defined and dynamic assembly.
+        Investing some time in looking at alternatives to statically defined, map-driven
+        deliverables is worth the effort. </p>
+    </section>
+ </conbody>
+
+</concept>
+

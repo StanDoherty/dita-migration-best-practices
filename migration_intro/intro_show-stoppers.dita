@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_zvz_vzp_rx">
+ <title>The Glass Half Empty . . . </title>
+ <conbody>
+  <p>If 100% of the organizations beginning a DITA migration finished successfully, there would be
+   no need for  conferences, user groups, webinars, or consultants. Before you invest significant
+   time in championing DITA in your organization, please take stock of some of the inhibitors that
+   may be lurking in your organization. </p>
+  <ul id="ul_qwf_bcq_rx">
+   <li>
+    <p>zero-cost migration</p>
+   </li>
+   <li>
+    <p>zero-attrition migration</p>
+   </li>
+   <li>
+    <p>zero-disruption migration</p>
+   </li>
+   <li>
+    <p>bad content miracle cure</p>
+   </li>
+   <li>
+    <p>$0 budget</p>
+   </li>
+   <li>
+    <p>Home-grown tooling</p>
+   </li>
+   <li>
+    <p>Home-grown processes </p>
+   </li>
+   <li>
+    <p>Special snowflakes</p>
+   </li>
+   <li>
+    <p>One person's concept of waste . . . </p>
+   </li>
+   <li>
+    <p>Feathered nests </p>
+   </li>
+   <li>
+    <p>Tail of the dog </p>
+   </li>
+   <li>
+    <p>The Maginot line  </p>
+   </li>
+  </ul>
+  <p>Lots TBD here . . . </p>
+ </conbody>
+</concept>

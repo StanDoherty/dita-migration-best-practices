@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_basic-concepts_markup-semantic">
+ <title>About Information Typing and Semantic Markup</title>
+
+ <conbody>
+<section class="- topic/section "><p class="- topic/p ">Information typing and semantic markup are the secret sauce for
+        enterprise-class frameworks such as OASIS DocBook, OASIS DITA, and S1000D.</p>
+      <ul id="ul_wyk_lqv_ly" class="- topic/ul ">
+        <li class="- topic/li ">
+          <p class="- topic/p "><i>Information typing</i> – XML vocabularies that encourage writers
+            to specify the types of information that they are developing – for example concepts,
+            tasks, or reference topics – tend to produce more focused and more consistent writing.
+            When there are many eyes in a writing organization looking at topics and sharing
+            expectations for what a formal task ought to look like, you tend to get more consistent,
+            more focused task writing. DITA topic types do not guarantee this sort of improved
+            focus, but they can certainly encourage the development of shared expectations about
+            information types. </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p "><i>Semantic markup</i> – lightweight markup languages tend to use
+            output formatting styles such as boldface or italics or monospace to differentiate many
+            different things in the source. In MS Word, for example, a monospace character style may
+            be used by writers to indicate a filename, a filepath, a code snippet, or a command
+            name. In OASIS DocBook or DITA, the writer chooses different semantic elements to
+            perform the same differentiation – <msgph class="+ topic/ph sw-d/msgph "
+              >&lt;filepath&gt;</msgph>, <msgph class="+ topic/ph sw-d/msgph "
+            >&lt;msgph&gt;</msgph>, or <msgph class="+ topic/ph sw-d/msgph "
+            >&lt;cmdname&gt;</msgph>. Old-school XML processors such as PDF may map these semantic
+            elements to the same output styling (monospace), but the differentiated elements in the
+            XML sources are now available to more savvy processors such as WebHelp or to metadata
+            processors. Semantic tags can function analogously to database field names. Processors
+            that can "query" these semantic elements can also assemble them dynamically into new
+            topics such as API quick reference tables or CLI argument reference tables. Using
+            @conrefs or @keyrefs to build a terminology tables from elements stored in disparate
+            DITA glossary topics in commonplace. Each DITA glossterm topic is a database record
+            waiting to be queried. </p>
+        </li>
+      </ul></section>
+ </conbody>
+
+</concept>

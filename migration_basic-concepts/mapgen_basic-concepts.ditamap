@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map class="- map/map ">
+   <title class="- topic/title ">Appendix: Basic Concepts</title>
+
+   <!-- <keydef keys="k_radiator" href="radiator.dita"/> -->
+
+   <topicmeta class="- map/topicmeta ">
+      <author class="- topic/author ">first.last@simplivity.com</author>
+
+      <!-- <resourceid appid="appid" ux-context-string="callback-id"/> -->
+      <!-- <svt-component>JIRA component name</svt-component> -->
+      <!-- <svt-jira>JIRA release theme or story for this branch</svt-jira> -->
+      <!-- <svt-content-type>Content genre</svt-content-type> -->
+   </topicmeta>
+
+   <topicref href="basic-concepts_intro.dita" class="- map/topicref ">
+      <topicref href="basic-concepts_vocabs-grammars.dita" class="- map/topicref "/>
+      <topicref href="basic-concepts_hierarchy-inheritance.dita" class="- map/topicref "/>
+      <topicref href="basic-concepts_static-dynamic.dita" class="- map/topicref "/>
+      <topicref href="basic-concepts_infotype-semantic.dita" class="- map/topicref "/>
+      <topicref href="basic-concepts_linear-modular-architecture.dita" class="- map/topicref "/>
+      <topicref href="basic-concepts_linear-modular.dita" class="- map/topicref "/>
+      <topicref href="basic-concepts_content-context.dita" class="- map/topicref "/>
+
+      <topichead navtitle="Topics under contruction">
+         <topicref href="basic-concepts_repos-builds-deliv.dita" class="- map/topicref "/>
+         <topicref href="basic-concepts_progressive-disclosure.dita" class="- map/topicref "/>
+         <topicref href="basic-concepts_user-assistance.dita" class="- map/topicref "/>
+         <topicref href="basic-concepts_scaling.dita" class="- map/topicref "/>
+      </topichead>
+   </topicref>
+</map>

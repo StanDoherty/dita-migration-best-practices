@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="reference_p1d_r4t_lz">
+  <title>Resources: DITA Migration Proposals</title>
+  <prolog>
+    <author>Stan Doherty</author>
+    <metadata>
+      <category><keyword keyref="name_migration-phase-1"/></category>
+      <category>DITA Migration Proposals</category>
+      <category>Resources</category> 
+    </metadata>
+  </prolog>
+  <refbody>
+
+
+  <section>
+    <p>Brief summary of the scope of available information resources on this subject. </p>
+    <p>The following resources are available:</p>
+    <ul>
+      <li><p>Hyperlink to resource / title: Brief description. Descriptive text. Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.  </p></li>
+      <li><p>Hyperlink to resource / title: Brief description. Descriptive text. Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.  </p></li>
+      <li><p>Hyperlink to resource / title: Brief description. Descriptive text. Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.  </p></li>
+      <li><p>Hyperlink to resource / title: Brief description. Descriptive text. Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.  </p></li>
+      <li><p>Hyperlink to resource / title: Brief description. Descriptive text. Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.  </p></li>
+      <li><p>Hyperlink to resource / title: Brief description. Descriptive text. Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.  </p></li>
+      <li><p>Hyperlink to resource / title: Brief description. Descriptive text. Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.Descriptive text.  </p></li>
+    </ul> 
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+  </section>
+
+  <section>
+      <!-- Pseudo-footer boilerplate -->
+      <p><image href="../common/graphics/migration-rule.png"/></p> 
+      <p><image href="../common/graphics/icon_migration-guide.png"/></p>
+      <p>Sponsored by <keyword keyref="name_migration-guide-sponsor"/></p>
+  </section>
+
+
+  </refbody>
+</reference>

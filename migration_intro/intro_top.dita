@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_jxw_hzn_xy">
+  <title>Introduction</title>
+  <body>
+    <p>One of the mantras in the Republic of DITA is that "DITA is both highly beneficial and highly
+      disruptive." </p>
+    <p>Organizations considering a migration to OASIS DITA tend to focus on the former – the many
+      technical benefits that DITA can bring to a group of content developers interested in reuse,
+      consistency, style/content separation, and content management. The technical merits of DITA
+      are reasonably well documented and exemplified, especially for enterprise-class organizations.
+      Equipped with a few books and a decent DITA editor, teams can produce some technically
+      compelling demo implementations of unstructured content converted to DITA, replete with reuse,
+      metadata, topic authoring, multi-channel publishing, and so forth. Less visible to
+      organizations considering DITA migration are its "highly disruptive" aspects – content
+      upheaval, role redefinition, staff attrition, sacred cow burgers, and politics. The long-term
+      costs of ignoring the non-technical, disruptive aspects of DITA migration when building a
+      proposal for migration can be damaging if not fatal. </p>
+    <p>Approaching a DITA migration with your eyes wide open is necessary. DITA is an XML technology
+      and a loosely identifiable set of best practices. There are no guarantees that it maps neatly
+      into your organization, your management priorities, or your team culture. Reading a stack of
+      DITA books and attending a bevvy of DITA webinars can be informative, but they are no
+      substitute for learning from the experiences of others who have succeeded and failed in their
+      DITA migrations. People involved with failed DITA migrations can tell you – in hindsight –
+      that all the signs were present at the beginning of the migration that it was doomed
+      organizationally or politically. Experience. </p>
+    <p>This <cite><keyword keyref="k_kw_migrate_guide-title"/></cite> provides a framework within
+      which the OASIS DITA Adoption Technical Committee can capture the collective wisdom and
+      experience of the DITA community regarding DITA migrations. Welcome to the conversation. </p>
+    <p>This project, sponsored by the OASIS DITA Adoption Technical Committee, seeks to provide you
+      with a lot of ready-to-reuse information about the many benefits of migrating to DITA
+        <i>and</i> (importantly) some of the trade-offs and risks that also need to be put on the
+      table. The strongest migration proposal for DITA is one that is balanced, data-driven, and
+      cognizant of the disruption that DITA can and will cause. </p>
+  </body>
+</topic>

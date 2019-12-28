@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_basic-concepts_linear-modular">
+
+
+ <title>About Linear and Modular Documentation</title>
+ 
+ <conbody>
+<section id="section_fnc_4d2_ly" class="- topic/section ">
+         <p class="- topic/p ">Teams working in a modular authoring environment such as XML DITA can
+            produce either linear and modular documentation. The differences between them can be
+            focused externally (how people consume content) or internally (how content developers
+            design and deliver content). </p>
+      </section>
+      <section id="section_mj3_n3f_ly" class="- topic/section ">
+         <title class="- topic/title ">Content consumption</title>
+         <p class="- topic/p ">The following differentiators focus on how readers access linear or
+            modular information. </p>
+         <simpletable frame="none" relcolwidth="1.0* 2.82*" id="simpletable_sr3_3vn_xy">
+            <strow>
+               <stentry>
+                  <p>Reader access frequency</p>
+               </stentry>
+               <stentry>
+                  <p class="- topic/p ">If a deliverable is intended to be read (accessed) once for
+                     a release, it is unlikely that a customer would need to revisit specific topics
+                     in that deliverable. Deliverables focused on one-time use are more often than
+                     not linear. Deliverables such as software installation/deployment guides,
+                     upgrade guides, hardware installation guides, getting started guides, or
+                     release notes fit into this category. </p>
+                  <p class="- topic/p ">If a customer consults a deliverable while solving multiple,
+                     separate problems throughout a release cycle, then the topics in that
+                     deliverable should be candidates for modular development. </p>
+               </stentry>
+            </strow>
+            <strow>
+               <stentry>
+                  <p>Reader access context</p>
+               </stentry>
+               <stentry>
+                  <p class="- topic/p ">If the topics in a deliverable are designed to be read
+                     (accessed) by humans sequentially within the immediate context of a chapter and
+                     within the general context of a deliverable, those topics are closely
+                     associated with both the immediate and general reader context. By default, they
+                     live in a linear workflow. </p>
+                  <p class="- topic/p ">
+                     <image placement="break" id="image_qbw_jgf_ly"
+                        href="graphics/png_linear-doc.png" class="- topic/image "/>
+                  </p>
+                  <p class="- topic/p ">Techniques that enhance the logic of the linear workflow –
+                     transitions, cross-references, section numbering – are beneficial and, in many
+                     cases, necessary. </p>
+                  <p class="- topic/p ">If human or machine readers access specific topics from
+                     multiple, non-linear contexts – CSH, search, avatars – the default linear
+                     workflow is broken. These topics need to be developed as context-independent
+                     modules.</p>
+                  <p class="- topic/p ">
+                     <image placement="break" id="image_mmv_chf_ly"
+                        href="graphics/png_modular-doc.png" class="- topic/image "/>
+                  </p>
+               </stentry>
+            </strow>
+         </simpletable>
+      </section>
+      <section id="section_b1p_t3f_ly" class="- topic/section ">
+         <title class="- topic/title ">Content design and development </title>
+         <p class="- topic/p ">If we worked in a world that was not constrained by time or release cycles or staffing,
+            we would not need to worry about the following distinctions. The more constrained our
+            capacity, the more important these become. </p>
+         <simpletable frame="none" relcolwidth="1.0* 2.84*" id="simpletable_tyt_qvn_xy">
+            <strow>
+               <stentry>
+                  <p>Technical update frequency</p>
+               </stentry>
+               <stentry>
+                  <p class="- topic/p ">If you need to update the majority of topics for a
+                     deliverable with every release, it is probably linear. Deliverables such as
+                     software installation/deployment guides, upgrade guides, hardware installation
+                     guides, getting started guides, or release notes fit into this category.
+                     Savings from content reuse across releases would be pretty minimal. </p>
+                  <p class="- topic/p ">If there is no technical reason to update the majority of
+                     topics for every release, that content may well be predominantly concepts or
+                     reference material. Insulating topics that rarely require technical change from
+                     their surrounding context (peer topics) makes sense. Needing to make
+                     non-technical updates to topics purely for the sake of updating contextual
+                     links can be expensive. </p>
+               </stentry>
+            </strow>
+            <strow>
+               <stentry>
+                  <p>Content reuse</p>
+               </stentry>
+               <stentry>
+                  <p class="- topic/p ">Topics that are reused in multiple contexts cannot contain
+                     context-specific cross-references, related links, or transitions.
+                     Product-specific content that can be filtered out at built time is OK, but not
+                     single-context cross-references, related links, or transitions. </p>
+                  <p class="- topic/p ">It is common for writing teams to increase the percentage of
+                     modular documentation over time as they discover opportunities for reuse. If
+                     writers discover that a topic in one linear "Getting Started" deliverable could
+                     be used in another linear "Getting Started" deliverable, then the newly shared
+                     topic should be refactored into a modular topic. </p>
+               </stentry>
+            </strow>
+            <strow>
+               <stentry>
+                  <p>Content flexibility</p>
+               </stentry>
+               <stentry>
+                  <p class="- topic/p ">Anyone who has built a stone wall can tell you that the
+                        <i>very</i> last thing that you add is the mortar between the individual
+                     stones. As the shape and constitution of the stone wall matures, it's likely
+                     you'll need to move things around or even tear down sections. </p>
+                  <p class="- topic/p ">By analogy, preserving modular, context-independent topics
+                     as along as possible in the design cycle makes sense. Product Managers, Product
+                     Owners, and scrum teams may benefit from seeing two or three alternate
+                     organizations (maps) for the content that we draft. Being able to reorganize
+                     the sequence and/or hierarchy of our topic content is a major benefit for a
+                     startup still trying to understand what it is we are building. </p>
+               </stentry>
+            </strow>
+         </simpletable>
+      </section>
+      <section id="section_qgl_tlf_ly" class="- topic/section ">
+         <p class="- topic/p ">In many cases, one deliverable may require both linear and modular
+            development. API guides can be a good example. The installation, configuration, and
+            "getting started" sections are most effectively developed as linear docs. The subsequent
+            feature overviews, concepts, how-to writing, and reference sections that may be relevant
+            to other publications are modular. </p>
+      </section> </conbody>
+
+</concept>

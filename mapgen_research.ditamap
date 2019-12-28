@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Research Phase</title>
+
+<!-- Topics -->
+   <topicref href="research_intro/research_intro_top.dita">
+
+    
+   <!-- DITA Overviews -->
+   <topicref href="research_dita-overviews/mapgen_research_dita-overviews.ditamap" format="ditamap"/>
+
+   <!-- DITA Financials -->
+   <topicref href="research_financials/mapgen_research_financials.ditamap" format="ditamap"/>
+
+   <!-- DITA Show Stoppers -->
+   <topicref href="research_show-stoppers/mapgen_research_show-stoppers.ditamap" format="ditamap"/>
+
+   <!-- Competitive Research -->
+
+   <!-- Migration Proposals -->
+   <topicref href="research_proposals/mapgen_research_proposals.ditamap" format="ditamap"/>
+      <topicref href="research_competitive/mapgen_research_competitive.ditamap" format="ditamap"/>
+
+
+
+ </topicref>
+</map>

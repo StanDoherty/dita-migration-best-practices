@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_rwd_n4t_lz">
+  <title>DITA Overviews</title>
+  <prolog>
+    <author>Stan Doherty</author>
+    <metadata>
+      <category><keyword keyref="name_migration-phase-1"/></category>
+      <category>DITA Overviews</category>
+      <category>Introduction</category> 
+    </metadata>
+  </prolog>
+  <body>
+
+    <p>Publications that provide an "overview" of DITA for people just getting into it can be
+      invaluable. Unlike a commercial product that has an active Marketing department defining and
+      defending its borders, DITA consists of a set of related specifications, projects, and
+      supporting commercial poroducts:</p>
+    <ul id="ul_rcd_ggk_nz">
+      <li>
+        <p>DITA is a formal XML language specification developed and maintained by OASIS.</p>
+      </li>
+      <li>
+        <p>DITA is a set of ready-to-use XML topic types, map types, and domain vocabularies that
+          accompany the XML language specification. This is often called OOTB DITA (out-of-the-box
+          DITA). </p>
+      </li>
+      <li>
+        <p>DITA is a powerful, extensible framework that allows you to constrain, enhance, or
+          replace the OOTB topics, maps, or domains. DITA generally calls these extensions
+          "specializations."</p>
+      </li>
+      <li>
+        <p>DITA is a collection of open-source and commercial XML processsing suites. Perhaps the
+          most well-known of these processing suites is the open-source project named the DITA Open
+          Toolkit. DITA-OT and the other processing suites are developed independently from any
+          OASIS specification work. </p>
+      </li>
+      <li>
+        <p>DITA is supported by a robust collection of authoring, processing, and content management
+          tools. As long as a tool complies to the OASIS DITA standard, you can use it with
+          confidence that your content is not getting trapped in some proprietary markup or file
+          format.  </p>
+      </li>
+      <li>
+        <p>DITA is also the intersection of these resoirces and tools. When people at a company say
+          that they are "working in DITA," they are talking about some unique combination of OOTB
+          DITA resources, commercial tools, and customizations. No two implementationsof DITA are
+          indentical. </p>
+      </li>
+    </ul>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+    <p> </p>
+
+    <!-- Pseudo-footer boilerplate -->
+    <p><image href="../common/graphics/migration-rule.png"/></p> 
+    <p><image href="../common/graphics/icon_migration-guide.png"/></p>
+    <p>Sponsored by <keyword keyref="name_migration-guide-sponsor"/></p>
+
+  </body>
+</topic>

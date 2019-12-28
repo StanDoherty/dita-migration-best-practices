@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>DITA Show Stoppers</title>
+   
+<!-- Topics -->
+   <topicref href="research_show-stoppers_top.dita">
+
+    <topicref href="research_show-stoppers_resources.dita"/>
+    <topicref href="research_show-stoppers_feedback.dita"/>
+
+    <topicref href="research_show-stoppers_case-study-1.dita"/>
+    <topicref href="research_show-stoppers_case-study-2.dita"/>
+    <topicref href="research_show-stoppers_case-study-3.dita"/>
+
+
+ </topicref>
+</map>

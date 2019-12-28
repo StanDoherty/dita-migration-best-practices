@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_basic-concepts_hierarchy-inheritance-precedence">
+ <title>About Hierarchy, Inheritance, and Precedence</title>
+
+ <conbody>
+<p class="- topic/p ">Although XML implementations share similar notions of grammar and vocabulary,
+      they part company when it comes to how they implement hierarchy, inheritance, and precedence. </p><section id="section_cpz_lgs_ky" class="- topic/section "><title class="- topic/title ">Hierarchy</title><p class="- topic/p ">Any element that contains another element is in a hierarchy of sorts. At a
+        basic level, consider block elements such as tables, lists, or sections that can contain
+        subordinate elements such as rows, columns, list items, or paragraphs. At a more
+        sophisticated level, consider multiple levels of DITA maps. All elements in a hierarchical
+        structure are, relative to one another, considered parents, children, or siblings (peers). </p>
+      <p class="- topic/p ">The following unordered list (<msgph class="+ topic/ph sw-d/msgph "
+          >&lt;ul&gt;</msgph>) in XML DITA illustrates a simple containment hierarchy. </p><p class="- topic/p ">
+            <image placement="inline" href="graphics/png_hierarchy-example.png" class="- topic/image "/>
+         </p>
+      <p class="- topic/p ">The two <msgph class="+ topic/ph sw-d/msgph ">&lt;li&gt;</msgph>
+        elements under &lt;<msgph class="+ topic/ph sw-d/msgph ">ul</msgph>&gt; are direct child
+        elements. The <msgph class="+ topic/ph sw-d/msgph ">&lt;p&gt;</msgph> and <msgph class="+ topic/ph sw-d/msgph ">&lt;note&gt;</msgph> elements within those child <msgph class="+ topic/ph sw-d/msgph ">&lt;li&gt;</msgph> elements are direct children of their
+        respective <msgph class="+ topic/ph sw-d/msgph ">&lt;li&gt;</msgph> elements and indirect
+        children of <msgph class="+ topic/ph sw-d/msgph ">&lt;ul&gt;</msgph>. </p>
+      <p class="- topic/p ">In XML DITA, these hierarchical blocks have two uses.</p>
+      <ul id="ul_hqq_gfy_ky" class="- topic/ul ">
+        <li class="- topic/li ">
+          <p class="- topic/p ">You can assign them an @id and transclude (reuse by reference) the hierarchical blocks
+            anywhere. </p>
+        </li>
+        <li class="- topic/li ">
+          <p class="- topic/p ">You can address (query) the hierarchical structure using XPath
+            (XQuery) as though it were a database structure. The following snippet specifies that
+            XQuery examine the <msgph class="+ topic/ph sw-d/msgph ">&lt;p&gt;</msgph> element
+            within the <msgph class="+ topic/ph sw-d/msgph ">&lt;note&gt;</msgph> which is within
+            the <msgph class="+ topic/ph sw-d/msgph ">&lt;li&gt;</msgph> which is within the <msgph class="+ topic/ph sw-d/msgph ">&lt;ul&gt;</msgph>: <msgph class="+ topic/ph sw-d/msgph ">//ul/li/note/p</msgph>. In highly structured blocks in
+            API reference topics or glossary items, you can extract and reuse values based on their
+            position within the hierarchy. </p>
+        </li>
+      </ul>
+      <p class="- topic/p ">The same logic for hierarchy applies to any XML DITA hierarchy – root maps, child maps,
+        topics, and blocks. </p></section><section id="section_ifx_chs_ky" class="- topic/section "><title class="- topic/title ">Inheritance</title><p class="- topic/p ">Inheritance extends hierarchy by allowing attribute values specified for
+        parent element to cascade automatically to all subordinate child elements in its
+        hierarchical block. In the following example, the value "internal" for the attribute
+        @audience is specified for the parent block element <msgph class="+ topic/ph sw-d/msgph "
+          >&lt;ul&gt;</msgph>. </p><codeblock class="+ topic/pre pr-d/codeblock ">&lt;ul <b>audience="internal"</b>&gt;
+  &lt;li&gt;
+    &lt;p&gt;Text in a paragraph. &lt;/p&gt;
+      &lt;note&gt;
+        &lt;p&gt;Text in a paragraph in a note.&lt;/p&gt;
+      &lt;/note&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;More text in a different paragraph. &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</codeblock>
+      <p class="- topic/p ">DITA inheritance rules silently apply all attribute values defined for a
+        parent element to all direct and indirect child elements as though you added the inherited
+        attribute to each child element manually. </p>
+      <codeblock class="+ topic/pre pr-d/codeblock ">&lt;ul <b>audience="internal"</b>&gt;
+  &lt;li <b>audience="internal"</b>&gt; 
+    &lt;p <b>audience="internal"</b>&gt;Text in a paragraph. &lt;/p&gt;
+      &lt;note <b>audience="internal"</b>&gt;
+        &lt;p <b>audience="internal"</b>&gt;Text in a paragraph in a note.&lt;/p&gt;
+      &lt;/note&gt;
+  &lt;/li&gt;
+  &lt;li <b>audience="internal"</b>&gt;  
+    &lt;p <b>audience="internal"</b>&gt;More text in a different paragraph. &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</codeblock>
+      <p class="- topic/p ">The same logic for inheritance applies to any XML DITA hierarchy – root maps, child maps,
+        topics, and blocks. </p></section>
+    <section id="section_znf_t4y_ky" class="- topic/section ">
+      <title class="- topic/title ">Precedence</title>
+      <p class="- topic/p ">Precedence rules define the order in which parsers resolve attribute
+        values when there is more than one value for the same attribute defined within a
+        hierarchical block. In the following example, note that there are now two values defined for
+        @audience, "internal" and "infoeng".</p>
+      <codeblock class="+ topic/pre pr-d/codeblock ">&lt;ul <b>audience="internal"</b>&gt;
+  &lt;li&gt;
+    &lt;p&gt;Text in a paragraph. &lt;/p&gt;
+      &lt;note&gt;
+        &lt;p&gt;Text in a paragraph in a note.&lt;/p&gt;
+      &lt;/note&gt;
+  &lt;/li&gt;
+  &lt;li <b>audience="infoeng"</b>&gt;
+    &lt;p&gt;More text in a different paragraph. &lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</codeblock>
+      <p class="- topic/p ">In XML DITA and any other object-oriented frameworks, the value assigned
+        to an attribute in a parent element in the hierarchy is inherited by all child elements and
+        takes precedence (gets used by parsers) over any alternate value assigned to the attribute.
+        The value "internal" for @audience defined for the <msgph class="+ topic/ph sw-d/msgph "
+          >&lt;ul&gt;</msgph> parent element takes precedence over the value "infoeng" defined for
+        @audience attribute at a lower level. Both the value "internal" and the value "infoeng" get
+        inherited by subordinate elements, but only "internal" gets used by parsers. </p>
+      <p class="- topic/p ">The same logic for precedence applies to any XML DITA hierarchy – root maps, child maps,
+        topics, and blocks. </p>
+    </section>
+    <section id="section_ebw_xqy_ky" class="- topic/section ">
+      <p class="- topic/p ">To determine which attribute values apply to which elements in a XML
+        DITA structure, you need to understand the logic of its hierarchy, inheritance, and
+        precedence. </p>
+    </section> </conbody>
+
+</concept>
+

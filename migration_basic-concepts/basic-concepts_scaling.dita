@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="concept_basic-concepts_scaling">
+ <title>About scaling information architecture</title>
+
+
+
+
+  <conbody class="- topic/body  concept/conbody ">
+    <p class="- topic/p ">Scaling is growing an infrastructure (compute, storage, networking) larger
+      so that the applications riding on that infrastructure can serve more people at a time. </p>
+    <section id="section_smh_d3n_by" class="- topic/section ">
+      <title class="- topic/title ">Scale up</title>
+      <p class="- topic/p ">Scaling up is taking what you’ve got, and replacing it with something more powerful. From a
+        networking perspective, this could be taking a 1GbE switch, and replacing it with a 10GbE
+        switch. Same number of switchports, but the bandwidth has been scaled up via bigger pipes. </p>
+      <p class="- topic/p ">At first, adding more disks improves performance because disk throughput was probably the
+        limiting factor from a performance standpoint. However, as the load on the array climbed — a
+        situation often driven by virtualization — and more disks were added, the two controllers
+        themselves became a bottleneck as each began to require more and more CPU for RAID
+        calculations. Eventually, enough disks were added that the controllers were simply saturated
+        and could do no more. Adding more and faster disks behind an overloaded controller pair
+        simply places more overload on the controllers. In these systems once the controllers are
+        the bottleneck there is little you can do, apart from buying an additional new array with
+        its own pair of controllers and moving some of the workload (VMs) onto the new array.</p>
+    </section>
+    <section id="section_rc1_23n_by" class="- topic/section ">
+      <title class="- topic/title ">Scale out</title>
+      <p class="- topic/p ">Scaling out takes the infrastructure you’ve got, and replicates it to work in parallel.
+        This has the effect of increasing infrastructure capacity roughly linearly. Data centers
+        often scale out using pods. Build a compute pod, spin up applications to use it, then scale
+        out by building another pod to add capacity. Actual application performance may not be
+        linear, as application architectures must be written to work effectively in a scale-out
+        environment.</p>
+      <p class="- topic/p ">Each server is loaded with disks and uses a network — usually Ethernet — to talk to the
+        other servers in the storage array. The group of servers together forms a clustered storage
+        array and provides LUNs or file shares over a network just like a traditional array. Adding
+        additional nodes of disks to a scale out array actually adds another x86 server to the
+        cluster. At the same time, doing so adds more network ports, more CPU and more RAM. As the
+        capacity of a scale-out array increases so does its performance, adding nodes usually
+        results in linear performance improvements. Adding nodes is generally non-disruptive, so a
+        normal maintenance window can be used to add capacity and performance to the array, rather
+        than a full system outage. </p>
+    </section>
+    <section id="section_vcn_f3n_by" class="- topic/section ">
+      <title class="- topic/title ">Scale through</title>
+      <p class="- topic/p "/>
+    </section>
+  </conbody>
+  
+</concept>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+ <title>Keys - DITA Migration Guide</title>
+ <!-- SDoherty (04-10-2017): Consolidated the phase name keys. -->
+ <!-- Key definition for the name of this migration phase -->  
+   <keydef keys="name_migration-phase-1">
+      <topicmeta>
+         <keywords>
+            <keyword>Research Phase</keyword>
+         </keywords>
+      </topicmeta>
+   </keydef>
+
+   <keydef keys="name_migration-phase-2">
+      <topicmeta>
+         <keywords>
+            <keyword>Implementation Phase</keyword>
+         </keywords>
+      </topicmeta>
+   </keydef>
+
+   <keydef keys="name_migration-phase-3">
+      <topicmeta>
+         <keywords>
+            <keyword>Consolidation Phase</keyword>
+         </keywords>
+      </topicmeta>
+   </keydef>
+
+   <keydef keys="name_migration-phase-4">
+      <topicmeta>
+         <keywords>
+            <keyword>Collaboration Phase</keyword>
+         </keywords>
+      </topicmeta>
+   </keydef>
+
+   
+ <!-- Key definition for the name of the sponsoring organization. -->  
+   <keydef keys="name_migration-guide-sponsor">
+      <topicmeta>
+         <keywords>
+            <keyword>TBD-Sponsor</keyword>
+         </keywords>
+      </topicmeta>
+   </keydef>
+
+
+
+ <!-- SDoherty (10-20-2016): Created his key and set the default value. -->
+ <keydef keys="k_kw_migrate_org-name"><topicmeta><keywords><keyword>[YOUR-ORG-NAME]</keyword></keywords></topicmeta></keydef>
+ <keydef keys="k_kw_migrate_product-name-1"><topicmeta><keywords><keyword>[YOUR-PRODUCT-NAME]</keyword></keywords></topicmeta></keydef>
+ <keydef keys="k_kw_migrate_product-name-2"><topicmeta><keywords><keyword>[YOUR-PRODUCT-NAME-2]</keyword></keywords></topicmeta></keydef>
+ <keydef keys="k_kw_migrate_proposal-title"><topicmeta><keywords><keyword>[YOUR-PROPOSAL-TITLE]</keyword></keywords></topicmeta></keydef>
+ <keydef keys="k_kw_migrate_guide-title"><topicmeta><keywords><keyword>DITA Migration Guide</keyword></keywords></topicmeta></keydef>
+
+
+
+
+<!-- End of key definitions -->
+</map>
